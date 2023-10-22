@@ -3,7 +3,8 @@ import 'package:flutter/material.dart';
 // import './widgets/SoalDua.dart';
 // import './widgets/SoalTiga.dart';
 // import './widgets/SoalEmpat.dart';
-import './widgets/SoalLima.dart';
+// import './widgets/SoalLima.dart';
+import './widgets/SoalEnam.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       // home: SoalSatu(),
-      home: SoalLima(),
+      home: SoalEnam(),
     );
   }
 }
