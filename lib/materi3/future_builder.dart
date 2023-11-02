@@ -60,6 +60,13 @@ class HomePage extends StatelessWidget {
                 child: Text("Loading..."),
               );
             }
+
+            if (allUser.length == 0) {
+              return Center(
+                child: Text("Tidak ada user"),
+              );
+            }
+
             return ListView.builder(
               itemCount: allUser.length,
               itemBuilder: (context, index) => ListTile(
